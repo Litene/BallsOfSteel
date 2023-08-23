@@ -20,6 +20,7 @@ namespace Game
 
         public Node_Mud(Vector2Int vPosition) : base(vPosition)
         {
+            
         }
     }
 }

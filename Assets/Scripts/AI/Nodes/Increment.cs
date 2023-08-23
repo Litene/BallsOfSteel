@@ -18,7 +18,7 @@ namespace AI.Nodes
         {
             if (Tree != null && Tree.Blackboard != null)
             {
-                int iValue = Tree.Blackboard.GetValue(m_key, 0);
+               int iValue = Tree.Blackboard.GetValue<int>(m_key, new int());
                 Tree.Blackboard.SetValue(m_key, iValue + 1);
             }
         }
